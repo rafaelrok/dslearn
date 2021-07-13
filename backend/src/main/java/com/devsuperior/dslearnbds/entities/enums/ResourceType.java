@@ -1,4 +1,6 @@
 package com.devsuperior.dslearnbds.entities.enums;
 
-public class ResourceType {
+public enum ResourceType {
+
+	LESSON_ONLY, LESSON_TASK, FORUM, EXTERNAL_LINK;
 }

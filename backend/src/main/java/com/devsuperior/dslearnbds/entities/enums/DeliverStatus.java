@@ -1,4 +1,6 @@
 package com.devsuperior.dslearnbds.entities.enums;
 
-public class DeliverStatus {
+public enum DeliverStatus {
+
+	PENDING, ACCEPTED, REJECTED;
 }
